@@ -1,5 +1,6 @@
 #!/bin/bash
-echo "Sisesta kasutajanimi"
+#echo "Sisesta kasutajanimi"
+#read $kasutajanimi
 kasutajanimi=$1
 useradd -m -s /bin/bash $kasutajanimi
 echo "Kasutaja $kasutajanimi on loodud"
