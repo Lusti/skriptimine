@@ -1,0 +1,9 @@
+#!/bin/bash
+#echo "Sisesta kasutajanimi"
+#read $kasutajanimi
+kasutajanimi=$1
+parool=$2
+#useradd -m -s /bin/bash $kasutajanimi -p $parool
+echo $parool $kasutajanimi
+#echo "Kasutaja $kasutajanimi on loodud, koos passiga"
+
