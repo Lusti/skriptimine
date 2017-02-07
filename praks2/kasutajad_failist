@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+failinimi="kasutajad"
+  for rida in $(cat $failinimi)
+  do
+      sh useraddskript $rida
+ done
+
+
