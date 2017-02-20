@@ -11,5 +11,5 @@ kuupaev=$(date +%d.%m.%y)
 			echo "Kasutajal $nimi on backup tehtud"
 fi
 done
-#echo $kuupaev
+
 
